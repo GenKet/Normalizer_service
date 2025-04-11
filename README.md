@@ -70,6 +70,7 @@ project/
 ├── Dockerfile                 # Docker-образ приложения
 ├── main.py                    # Точка входа приложения FastAPI
 └── requirements.txt           # Зависимости проекта
+```
 
 ## ⚙️ Установка и запуск
 
