@@ -36,8 +36,6 @@
 
 ## 📁 Структура проекта
 
-## 📁 Структура проекта
-
 ```plaintext
 project/
 ├── app/
@@ -83,7 +81,7 @@ cd Normalizer_service
 ```
 2. **Создание виртуального окружения и установка зависимостей:**
 ```bash
-python -m venv .venv
+py -3.10 -m venv .venv
 # Для Linux/macOS:
 source .venv/bin/activate
 # Для Windows:
@@ -93,7 +91,7 @@ pip install -r requirements.txt
 ```
 3.**Запуск приложения:**
 ```bash
-uvicorn app.main:app --reload
+uvicorn main:app --reload
 ```
 
 ### 🐳 Запуск через Docker
